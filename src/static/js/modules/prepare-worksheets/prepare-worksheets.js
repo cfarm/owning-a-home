@@ -92,7 +92,6 @@ function _loadPage(page) {
     break;
   }
   _updateNavigationState();
-  $('.expandable').expandable();
 }
 
 /* // TEMP - DEBUG - display worksheet data in console.
