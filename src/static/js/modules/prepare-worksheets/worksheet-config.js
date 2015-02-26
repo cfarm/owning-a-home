@@ -218,6 +218,14 @@ this.worksheetDefaults = {
                 "deletable": false
             },
             {  
+                "text":"I will have little to no savings left over after making a down payment",
+                "grade":null,
+                "alternative":"",
+                "altText":"",
+                "explanation":"",
+                "deletable": false
+            },
+            {  
                 "text":"I find fixing things and doing yardwork to be a real hassle",
                 "grade":null,
                 "alternative":"In a lot of ways, it’s simpler and more financially predictable to rent.",
@@ -252,7 +260,7 @@ this.worksheetDefaults = {
                 "alternative":"Think of all the little things that you are used to calling your landlord to deal with: a cracked window, a broken dishwasher, or a clogged toilet. As a homeowner, you will either have to fix these yourself or call and pay for a professional.",
                 "altText": "",
                 "explanation":"",
-                "deletable": false
+                "deletable": false,
             }
         ]
       }
