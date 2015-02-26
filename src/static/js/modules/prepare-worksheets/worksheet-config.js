@@ -215,7 +215,7 @@ this.worksheetDefaults = {
                 "alternative":"",
                 "altText":"",
                 "explanation":"",
-                "deletable": false
+                "required": true
             },
             {  
                 "text":"I find fixing things and doing yardwork to be a real hassle",
