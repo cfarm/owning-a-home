@@ -68,3 +68,8 @@ node_modules/
 # Sheer stuff #
 ###############
 .env
+
+# Vagrant stuff #
+###############
+Vagrantfile
+.vagrant
