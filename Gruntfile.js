@@ -116,7 +116,6 @@ module.exports = function(grunt) {
           './src/static/js/modules/rates.js',
           './src/static/js/modules/check-rates.js',
           './src/static/js/modules/loan-comparison.js',
-          './src/static/js/modules/prepare-worksheets/prepare-worksheets.js',
           './src/static/js/modules/form-explainer.js',
           './src/static/js/modules/process.js',
           './src/static/js/modules/home.js'
@@ -131,7 +130,6 @@ module.exports = function(grunt) {
                 './src/static/js/modules/rates.js',
                 './src/static/js/modules/check-rates.js',
                 './src/static/js/modules/loan-comparison.js',
-                './src/static/js/modules/prepare-worksheets/prepare-worksheets.js',
                 './src/static/js/modules/form-explainer.js',
                 './src/static/js/modules/process.js',
                 './src/static/js/modules/home.js',
@@ -142,7 +140,6 @@ module.exports = function(grunt) {
                 'dist/static/js/rates.js',
                 'dist/static/js/check-rates.js',
                 'dist/static/js/loan-comparison.js',
-                'dist/static/js/prepare-worksheets.js',
                 'dist/static/js/form-explainer.js',
                 'dist/static/js/process.js',
                 'dist/static/js/home.js',
@@ -234,7 +231,6 @@ module.exports = function(grunt) {
             'loan-options.js',
             'check-rates.js',
             'loan-comparison.js',
-            'prepare-worksheets.js',
             'process.js',
             'home.js',
             'loan-options-subpage.js'
