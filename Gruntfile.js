@@ -115,7 +115,6 @@ module.exports = function(grunt) {
           './src/static/js/modules/loan-options.js',
           './src/static/js/modules/rates.js',
           './src/static/js/modules/check-rates.js',
-          './src/static/js/modules/form-explainer.js',
           './src/static/js/modules/process.js',
           './src/static/js/modules/home.js'
         ],
@@ -128,7 +127,6 @@ module.exports = function(grunt) {
                 './src/static/js/modules/loan-options.js',
                 './src/static/js/modules/rates.js',
                 './src/static/js/modules/check-rates.js',
-                './src/static/js/modules/form-explainer.js',
                 './src/static/js/modules/process.js',
                 './src/static/js/modules/home.js',
                 './src/static/js/modules/loan-options-subpage.js'
@@ -137,7 +135,6 @@ module.exports = function(grunt) {
                 'dist/static/js/loan-options.js',
                 'dist/static/js/rates.js',
                 'dist/static/js/check-rates.js',
-                'dist/static/js/form-explainer.js',
                 'dist/static/js/process.js',
                 'dist/static/js/home.js',
                 'dist/static/js/loan-options-subpage.js'
