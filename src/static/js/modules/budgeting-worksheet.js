@@ -4,5 +4,5 @@ var App = require('./budgeting-worksheet/components/app');
 
 
 React.render(
-  <App/>, document.getElementById('app-container')
+  <App/>, document.getElementById('budget-app')
 );
