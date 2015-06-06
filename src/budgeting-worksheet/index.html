@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% set active_page = "budgeting-worksheet" %}
+
+{% block title %}Owning a Home: Budgeting Worksheet{% endblock title %}
+
+{% block content %}
+
+<main class="content content__1-3" id="main" role="main">
+  <div class="wrapper content_wrapper content_wrapper__narrow-with-sidebar">
+    <aside class="content_sidebar content__flush-all-on-small">
+      {% with active_page = "budgeting-worksheet" %}
+        {% include "sidebar_nav.html" %}
+      {% endwith %}
+    </aside>
+    <section class="content_main content__flush-top-on-small">
+        <h1>Define what is affordable for you.</h1>
+
+        <p class="lead">Poresti ut pos nis re paritio berae liquodi ciatam nobitibus re, sunt voloreius, cus nulpari conet omnim quatur, omnis eliaepe lendund eliquo test, ipietus ut veliquam qui blab inum harum ellitat emposam es unt rem dicit rehenda.</p>
+
+
+        <h2>Assess your current income and spending.</h2>
+
+        <ol>
+          <li>
+            <h3>Monthly income</h3>
+
+          </li>
+          <li>
+            <h3>Monthly spending</h3>
+
+          </li>
+          <li>
+            <h3>Additional monthly homeownership expenses</h3>
+          </li>
+          <li>
+            <h3>Monthly savings goals</h3>
+          </li>
+          <li>
+            <h3>Home price assumption</h3>
+
+          </li>
+        </ol>
+    </section>
+  </div>
+</main>
+
+{% endblock %}
+
