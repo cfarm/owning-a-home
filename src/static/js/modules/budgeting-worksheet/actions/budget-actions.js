@@ -16,11 +16,13 @@ var BudgetActions = {
   },
 
   /**
-   * @param  {number} val
+ * @param  {string} name The EXPENSE label
+ * @param  {number} val The EXPENSE input value
    */
-  update: function(val) {
+  update: function(name, val) {
     AppDispatcher.dispatch({
       actionType: BudgetConstants.EXPENSE_UPDATE,
+      name: name,
       val: val
     });
   },
