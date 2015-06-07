@@ -1,6 +1,6 @@
 var React = require('react');
 var BudgetStore = require('../stores/budget-store.js')
-var ExpenseList = require('./expense-list.js')
+var ExpenseForm = require('./expense-form.js')
 
 var $ = jQuery = require('jquery');
 
@@ -27,7 +27,7 @@ var App = React.createClass({
     render: function() {
         return (
           <div>
-            <ExpenseList expenses={this.state.expenses} />
+            <ExpenseForm expenses={this.state.expenses} />
           </div>
         );
     },
