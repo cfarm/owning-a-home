@@ -40,25 +40,6 @@ var defaultBudgetData = [
     // 'home-price-assumption': 0
 ];
 
-var defaultBudgetResults = {
-    'monthly-principal-interest': 0,
-    'monthly-taxes-insurance': 0,
-    'monthly-payment': 0,
-    'monthly-hoa-fees': 0,
-    'monthly-housing-total': 0,
-    'monthly-income-percentage': 0,
-    'budget-monthly-housing': 0,
-    'budget-monthly-maintenance': 0,
-    'budget-monthly-utilities': 0,
-    'budget-monthly-debt': 0,
-    'budget-monthly-living': 0,
-    'budget-monthly-savings': 0,
-    'budget-monthly-total': 0,
-    'budget-monthly-take-home-income': 0
-}
-
-var _expenses = {};
-
 function init () {
     updateAll({reset: true});
     updateAll(defaultBudgetData);
