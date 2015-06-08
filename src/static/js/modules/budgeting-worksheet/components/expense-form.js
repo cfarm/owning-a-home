@@ -6,11 +6,12 @@ var ExpenseForm = React.createClass({
     render: function () {
         var expenses = $.map( this.props.expenses, function(expense, name) {
             return (
-                <ExpenseFormInput expense={expense} name={name} key={expense.id} />
+                <ExpenseFormInput expense={expense} name={name} />
             )
         });
         return (
             <div className="form-group">
+                <h1>a form</h1>
                 {expenses}
             </div>
         );

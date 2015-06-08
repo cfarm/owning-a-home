@@ -25,16 +25,24 @@ var App = React.createClass({
     },
 
     getMonthlyIncome: function() {
-        var expenses = this.state.expenses;
-
-        // monthlyExpenses.expenses['monthly-your-income'],
-    }
+        
+    },
 
     render: function() {
+        var expenses = this.state.expenses;
+        var monthlyExpenses = {};
+        var closingCosts = {};
+        var overallCosts = {};
+
+        monthlyExpenses['monthly-your-income'] = expenses['monthly-your-income'],
+        monthlyExpenses['monthly-partner-income'] = expenses['monthly-partner-income'],
+        monthlyExpenses['monthly-income-total'] = expenses['monthly-income-total'];
+
         return (
-          <div>
-            <ExpenseForm expenses={this.state.expenses} />
-          </div>
+            <section>
+                {/*<ExpenseForm expenses={this.state.expenses} />*/}
+                <ExpenseForm expenses={monthlyExpenses} />
+            </section>
         );
     },
  
