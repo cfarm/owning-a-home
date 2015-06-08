@@ -24,6 +24,12 @@ var App = React.createClass({
         BudgetStore.removeChangeListener(this._onChange);
     },
 
+    getMonthlyIncome: function() {
+        var expenses = this.state.expenses;
+
+        // monthlyExpenses.expenses['monthly-your-income'],
+    }
+
     render: function() {
         return (
           <div>
