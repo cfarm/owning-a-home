@@ -1,5 +1,7 @@
 # Owning a Home
 
+[![Join the chat at https://gitter.im/cfarm/owning-a-home](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cfarm/owning-a-home?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/cfpb/owning-a-home.svg?branch=master)](https://travis-ci.org/cfpb/owning-a-home) [![Coverage Status](https://coveralls.io/repos/cfpb/owning-a-home/badge.svg)](https://coveralls.io/r/cfpb/owning-a-home)
 
 "Owning a Home" is an interactive, online toolkit designed to help consumers as they shop for a mortgage. The suite of tools gives consumers the information and confidence they need to get the best deal. It takes the consumer from the very start of the home-buying process, with a guide to loan options, terminology, and costs, through to the closing table with a closing checklist.
