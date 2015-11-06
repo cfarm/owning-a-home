@@ -62,13 +62,27 @@ describe('Input USD react component tests', function () {
     
     describe('tests component with passed in decimalPlaces prop', function() {
     
-      it('should truncate a value for display based on decimalPlaces prop', function() {
+      it('should truncate a value for display based on decimalPlaces prop, rounding down', function() {
         setupComponent({decimalPlaces: 2});
         
         var formattedVal = renderedComponent.format(3.14159);
         expect(formattedVal).to.equal('$3.14');
       });
-      
+
+      it('should truncate a value for display based on decimalPlaces prop, rounding up', function() {
+        setupComponent({decimalPlaces: 2});
+        
+        var formattedVal = renderedComponent.format(3.1459);
+        expect(formattedVal).to.equal('$3.15');
+      });
+
+      it('should truncate a value to 3 decimal places based on decimalPlaces prop, rounding up', function() {
+        setupComponent({decimalPlaces: 3});
+        
+        var formattedVal = renderedComponent.format(3.1459);
+        expect(formattedVal).to.equal('$3.146');
+      });
+
       it('should add decimals to a value based on decimalPlaces prop', function() {
         setupComponent({decimalPlaces: 2});
         
